@@ -22,5 +22,5 @@ public class tablasdecolores {
              System.out.println("   97   │\033[97m blanco claro \033[39;49m  │");
              System.out.println("└────────┴───────────┴────────┴────────────────┘");
     }
-    
+   
 }  
