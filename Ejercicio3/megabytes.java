@@ -1,4 +1,4 @@
-package Ejercicios03;
+package Ejercicio3;
 import java.util.Scanner;
 
 public class megabytes { 
