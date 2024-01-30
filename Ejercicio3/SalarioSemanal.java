@@ -19,5 +19,6 @@ public class SalarioSemanal {
 
 
         System.out.println("El salario semanal del empleado es: " + salarioSemanal + " soles");
+        s.close();
     }
 }
