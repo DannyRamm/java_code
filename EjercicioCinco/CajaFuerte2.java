@@ -1,0 +1,23 @@
+package EjercicioCinco;
+import java.util.Scanner;
+
+public class CajaFuerte2 {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Introduce un número: ");
+        long numero = s.nextLong();
+
+        long numeroAbsoluto = Math.abs(numero);
+
+        int contadorDigitos = 0;
+
+        while (numeroAbsoluto > 0) {
+            numeroAbsoluto /= 10;
+            contadorDigitos++;
+        }
+
+        System.out.println("El número introducido tiene " + contadorDigitos + " dígitos.");
+        s.close();
+    }
+}
