@@ -1,7 +1,6 @@
 /**
 * Salida formateada
 *
-* @author Luis J. Sánchez
 */
 public class SalidaFormateada02 {
     public static void main(String[] args) {
