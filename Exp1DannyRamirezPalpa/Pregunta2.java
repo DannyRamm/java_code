@@ -46,4 +46,3 @@ public class Pregunta2 {
         s.close(); // Cerramos el scanner
     }
 }
-
