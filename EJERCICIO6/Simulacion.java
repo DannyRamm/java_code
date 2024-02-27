@@ -5,8 +5,8 @@ public class Simulacion {
     
     
             // Presentamos el programa
-            System.out.print("\nBienvenid@ a la máquina tragaperras, si consigue 2 figuras iguales le devolveremos");
-            System.out.println(" su dinero, si consigue las 3, habrá ganado el premio. ¡Buena suerte!.");
+            System.out.print("\nBienvenido a las tragamonedas, si logras 2 figuras idénticas te reembolsaremos");
+            System.out.println(" tu plata, si logras los 3, habrás ganado el premio. ¡good luck!");
             System.out.println("-----------------------------------------------------------------------------");
             int figuras; // Almacena las figuras al azar
             int figura1 = 0; // Almacena la figura 1
@@ -48,13 +48,13 @@ public class Simulacion {
             }
             System.out.println("\n---------------------------------------------------------------------------");
             
-            // Muestra los resultados por pantalla según las condiciones
+            // esto Muestra los resultados por pantalla según las condiciones
             if ((figura1 == figura2) && (figura2 == figura3)) {
-              System.out.print("\n¡Enhorabuena, ha ganado el premio!, aquí tiene sus 10 monedas.");
+              System.out.print("\n¡lo lograste, has ganado el premio!, aquí tiene las 10 monedas.");
             } else if ((figura1 == figura2) || (figura1 == figura3) || (figura2 == figura3)) {
-              System.out.println("\n¡Uy!, ha estado a punto, aquí tiene su moneda de nuevo. En la siguiente tirada tendrá más suerte.");
+              System.out.println("\n¡casssi!, casi lo logras, aquí tiene plata de nuevo. En la siguiente tirada tendra mas suerte.");
             } else {
-              System.out.print("\nVaya... ha perdido, no se desanime, a la siguiente tendrá más suerte...");
+              System.out.print("\njjaja... fuiste pe, pediste no te desanimes, a la siguiente sera...");
             }
           } 
         }
