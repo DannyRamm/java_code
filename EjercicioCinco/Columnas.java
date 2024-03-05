@@ -1,4 +1,4 @@
-package EjerciciosCinco;
+package EjercicioCinco;
 
 import java.util.Scanner;
 public class Columnas {
